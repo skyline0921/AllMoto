@@ -1,0 +1,54 @@
+nav{
+    width: 100%;
+    height: 125px;
+    color: rgb(211, 81, 33);
+    display: flex;
+    align-items: flex-start;
+    background-image: url('/assets/wallpaper-nav2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h1{
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.5rem;
+        margin-left: 10px;
+    }
+    h4{
+        position: relative;
+        top: 55px;
+        right: 120px;
+    }
+    button{
+        position: relative;
+        border: none;
+        overflow: hidden;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        top: 20px;
+        left: 670px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(61, 58, 58);
+        color: orangered;
+    }
+    ul{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: row;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: orangered;
+        padding: 20px;
+        top: 60px;
+        margin: 0;
+        li{
+            margin-right: 10px;
+            list-style: none;
+        }
+    }
+}
