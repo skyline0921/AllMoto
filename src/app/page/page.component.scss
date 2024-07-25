@@ -2,18 +2,18 @@ main{
     width: 100%;
     min-height: 100vh;
     max-height: 100%;
-    background-image: url('/assets/moto-wallpaper.avif');
+    background-image: url('/assets/moto-wallpaper.png');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     section{
+        display: flex;
+        justify-content: center;
         .titleTwo{
             position: relative;
-            display: flex;
-            justify-content: center;
             align-items: center;
-            height: 150px;
+            height: 130px;
             z-index: 1;
         }
     }

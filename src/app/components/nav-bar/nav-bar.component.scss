@@ -1,54 +1,86 @@
 nav{
     width: 100%;
-    height: 125px;
-    color: rgb(211, 81, 33);
-    display: flex;
-    align-items: flex-start;
+    color: white;
     background-image: url('/assets/wallpaper-nav2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    h1{
-        position: relative;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2.5rem;
-        margin-left: 10px;
-    }
-    h4{
-        position: relative;
-        top: 55px;
-        right: 120px;
-    }
-    button{
-        position: relative;
-        border: none;
-        overflow: hidden;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        top: 20px;
-        left: 670px;
-        border-radius: 10px;
-        padding: 10px;
-        background-color: rgb(61, 58, 58);
-        color: orangered;
-    }
-    ul{
+
+    .logOptions{
         width: 100%;
-        position: relative;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-end;
-        flex-direction: row;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: orangered;
-        padding: 20px;
-        top: 60px;
-        margin: 0;
-        li{
-            margin-right: 10px;
-            list-style: none;
+        flex-direction: column;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        h2{
+            position: relative;
+            right: 15px;
+        }
+        h3{
+            position: relative;
+            bottom: 30px;
         }
     }
+
+    .options{
+        width: 100%;
+        background-image: url('/assets/wallpaper-navbar.avif');
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        ul{
+           width: 100%;
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           flex-direction: row;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size: 1.2rem;
+           padding: 20px;
+           margin: 0;
+           color: orangered;
+            li{
+                position: relative;
+                list-style: none;
+            }
+        }
+
+    }
 }
+    
+    main{
+        width: 100%;
+        width: 100%;
+        
+        button {
+            border: none;
+            border: none;
+            outline: none;
+            outline: none;
+            background: none;
+            background: none;
+            padding: 0;
+            padding: 0;
+            cursor: pointer;
+            cursor: pointer;
+        }
+        
+        body {
+            font-family: 'PT Sans', sans-serif;
+            font-family: 'PT Sans', sans-serif;
+            background-color: #EEEEEE;
+            background-color: #EEEEEE;
+            height: 100vh;
+            height: 100vh;
+            margin: 0;
+            margin: 0;
+        }
+    }
