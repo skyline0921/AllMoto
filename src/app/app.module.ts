@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgxMaskDirective } from 'ngx-mask';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +17,9 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxMaskDirective,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
